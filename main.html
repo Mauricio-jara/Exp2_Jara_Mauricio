@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo v1.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <title>Pet Palace</title>
+    <script src="js/funciones.js"></script>
+</head>
+<body class="fondo">
+    <div class="container fondo2 transparencia bordes">
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-light bg">
+                <a href="main.html" id="logo">
+                    <img src="img/logo v1.png" alt="logo" width="40px">Pet Palace
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="opciones">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="main.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="vision.html">Visión</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="adopcion.html">Adopta</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ml-lg-1">
+                    <h3 id="HoraActual"></h3>
+                </div>
+                <div class="ml-lg-1">
+                    <a href="user.html" id="user">
+                        <img src="img/user-vector-icon.png" alt="user" width="30px">Regístrate
+                    </a>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <br>
+    <!--inicio de carrusel-->
+    <div class="container-fluid">
+        <div id="carousel1" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel1" data-slide-to="1"></li>
+                <li data-target="#carousel1" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <!--inicio de fotos de carrusel-->
+                <div class="carousel-item active">
+                    <img class="d-block w-100 bordes" src="img/mascotas.jpg" height="750px">
+                    <div class="carousel-caption">
+                        <h3 class="letra">Gran apertura de nuestra pagina</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="vision.html"><img class="d-block w-100 bordes" src="img/mascotas3.jpg" height="750px"></a>
+                    <div class="carousel-caption">
+                        <h3 style="color: aliceblue;">Nuestra visión a sido agregada</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="tienda.html"><img class="d-block w-100 bordes" src="img/productos.jpg" height="750px"></a>
+                    <div class="carousel-caption">
+                        <h3 class="letra">Nuevos articulos en la tienda</h3>
+                    </div>
+                </div>
+                <!--fin de fotos de carrusel-->
+            </div>
+            <a class="carousel-control-prev filtro" href="#carousel1" data-slide="prev" >
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">previus</span>
+            </a>
+            <a class="carousel-control-next filtro" href="#carousel1" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">previus</span>
+            </a>
+        </div>
+    </div>
+    <!--fin de carrusel-->
+    <br>
+    <!--inicio tarjetas-->
+    <div class="container fondo2 bordes">
+        <br>
+        <div class="row">
+            <div class="col-md">
+                <div class="card">
+                    <img src="img/logo v1.2.png" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Nuestra Visión</h3>
+                        <p class="card-text">Nuestra visión es ...</p>
+                        <a href="vision.html" class="btn btn-outline-info">Leer más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card">
+                    <img src="img/carrito.png" class="card-img-top">
+                    <div class="card-body">
+                        <br>
+                        <h3 class="card-title">Nuevos articulos</h3>
+                        <p class="card-text">Visite nuestra tienda para ver nuevos articulos en la tienda</p>
+                        <a href="tienda.html" class="btn btn-outline-info">Ver articulos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+    <!--fin tarjertas-->
+    <br>
+    <!--inicio pie de pagina-->
+    <div class="container fondo2 bordes transparencia">
+        <footer>
+            <div class="row col-12">
+                <div class="col-lg-2">
+                    <a href="main.html" class="centrot"><strong>Inicio</strong></a>
+                </div>
+                <div class="col-lg-2">
+                    <a href="vision.html" class="centrot"><strong>Visión</strong></a>
+                </div>
+                <div class="col-lg-2">
+                    <a href="tienda.html" class="centrot"><strong>Tienda</strong></a>
+                </div>
+                <div class="col-lg-2">
+                    <a href="adopcion.html" class="centrot"><strong>Adopta</strong></a>
+                </div>
+                <div class="col-lg-2">  
+                    <strong>Síguenos</strong>
+                    <div class="row">
+                        <img src="img/2000px-Facebook_font_awesome.svg.png" width="30px" height="30px" style=" margin-left: 10px;">
+                        <img src="img/twitter.png" width="30px" height="30px" style=" margin-left: 10px;">
+                        <img src="img/Instagram.png" width="30px" height="30px" style=" margin-left: 10px;">
+                    </div>
+                </div>
+                <div class="col-lg-12">  
+                    <p style="text-align: right; ">© Copyright Derechos reservados, Mauricio Jara, 2023</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+</body>
+</html>
